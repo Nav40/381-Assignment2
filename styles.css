@@ -1,0 +1,213 @@
+header {
+    background-color:#004080;
+    padding: 20px;
+    margin: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    background-color:#004080;
+    padding: 10px;
+}
+
+nav {
+    background-color: #003366;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: #d4d4d4;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.login-container {
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    padding:30px;
+    margin-left:150px;
+    margin-right: 150px;
+    border-radius: 30px;
+    box-shadow: 9px 9px 10px rgba(23, 94, 187, 0.5);
+}
+
+.login-input {
+    background-color:lightyellow;
+    padding:10px;
+    border-radius:5px;
+    border:darkgray 3px;
+}
+.login-button {
+    background-color: #008000;
+    color:white;
+    margin:20px;
+}
+.login-button:hover {
+    background-color: #006600;
+}
+
+.forgot-password {
+    text-decoration:none;
+    color:#004080
+}
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.selectStyle {
+    background-color: lightyellow;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .tile {
+    background-color: #e6f2ff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    width: calc(33.33% - 30px); /* 3 tiles per row, accounting for margin */
+    text-align: center;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 5px;
+  }
+
+.accept-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.accept-button:hover {
+    background-color: #265e28;
+}
+
+.decline-button {
+    background-color: #D32F2F;
+    color: white;
+}
+
+.decline-button:hover {
+    background-color: #821b1b;
+}
+
+
+
+.quiz-banner {
+    width:100%;
+    height:150px;
+    border-radius: 15px;
+}
+
+.quiz-submitbutton {
+    background-color:lightblue;
+    color:black;
+
+}
+
+.quiz-submitbutton:hover {
+    background-color:darkblue;
+    color:white;
+
+}
+
+.quiz-answer {
+    background-color: #D32F2F;
+    color:white;
+}
+
+.quiz-answer:hover {
+    background-color:darkred;
+} 
+
+.quiz-info {
+    background-color: lightblue;
+    padding:20px;
+    margin-left:250px;
+    margin-right:250px; 
+    text-align: center;
+}
+
+.quiz-question {
+    background-color: #cacaca;
+    padding: 20px;
+    text-align: left; 
+    width: 30%; 
+    margin: 0 auto; 
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid black;
+}
+
+.table-header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 36px;
+}
+
+.rank-row-1st {
+    background-color: #FFD700;
+}
+
+.rank-row-2nd {
+    background-color: #C0C0C0;
+}
+
+.rank-row-3rd {
+    background-color: #CD7F32;
+}
+.rank-alt1 {
+    background-color: #f9f9f9;
+}
+
+.rank-alt2 {
+    background-color: #e4e2e2;
+}

@@ -83,14 +83,14 @@ main {
     padding: 5px;
 }
 
-.container {
+.course-view-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
   }
   
-  .tile {
+  .course-view-tile {
     flex: 1 1 calc(33.33% - 30px); /* Adjust to ensure equal width */
     max-width: 33%; /* Prevents stretching on different screen sizes */
     box-sizing: border-box;
@@ -104,7 +104,7 @@ main {
     /*box-sizing: border-box; /* Ensure padding and border are included in the width */
 }
   
-  .image {
+  .course-view-image {
     width: 100%;
     height: 100%;
     object-fit: cover; 
@@ -219,3 +219,12 @@ main {
     background-color: #e4e2e2;
 }
 
+.index-points {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.index-points li::before {
+    content: "-";
+    padding-right: 8px;
+}

@@ -2,7 +2,7 @@ header {
     background-color:#004080;
     padding: 20px;
     margin: 0;
-
+    color:white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,6 +11,8 @@ header {
 footer {
     background-color:#004080;
     padding: 10px;
+    color:white;
+    text-align: center;
 }
 
 nav {
@@ -38,6 +40,7 @@ main {
 
 }
 
+
 .login-container {
     display:flex;
     justify-content: center;
@@ -55,6 +58,7 @@ main {
     padding:10px;
     border-radius:5px;
     border:darkgray 3px;
+    border-width:3px solid;
 }
 .login-button {
     background-color: #008000;
@@ -87,14 +91,17 @@ main {
   }
   
   .tile {
+    flex: 1 1 calc(33.33% - 30px); /* Adjust to ensure equal width */
+    max-width: 33%; /* Prevents stretching on different screen sizes */
+    box-sizing: border-box;
     background-color: #e6f2ff;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin: 15px;
     border-radius: 10px;
-    width: calc(33.33% - 30px); /* 3 tiles per row, accounting for margin */
+    /*width: calc(33.33% - 30px); /* 3 tiles per row, accounting for margin */
     text-align: center;
-    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    /*box-sizing: border-box; /* Ensure padding and border are included in the width */
 }
   
   .image {
@@ -211,3 +218,4 @@ main {
 .rank-alt2 {
     background-color: #e4e2e2;
 }
+
